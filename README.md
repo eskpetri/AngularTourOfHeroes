@@ -1,4 +1,9 @@
-# Helloworld
+# Tour Of Heroes
+
+Doing Angular Tour of Heroes tutorial. 
+https://angular.io/tutorial
+
+Suomi Asennus ohjeet: https://angularalkeet.blogspot.com/2022/11/asennus.html
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 14.2.9.
 
