@@ -1,5 +1,5 @@
 {
-  "name": "heroes",
+  "name": "helloworld",
   "version": "0.1.1",
   "engines": { "node": "16.18.1", "npm": "9.1.1" },
   "scripts": {
