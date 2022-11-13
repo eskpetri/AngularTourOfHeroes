@@ -5,6 +5,8 @@ https://angular.io/tutorial
 
 Suomi Asennus ohjeet: https://angularalkeet.blogspot.com/2022/11/asennus.html
 
+This is way to go. Good structure and tutorial answers all the questions and provide knowledge why things are done this way
+
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 14.2.9.
 
 ## Development server
