@@ -16,4 +16,11 @@ export class HeroService {//This is an example of a typical service-in-service s
     this.messageService.add('HeroService: fetched heroes');
     return heroes;
   }
+  getHero(id: number): Observable<Hero> {
+    // For now, assume that a hero with the specified `id` always exists.
+    // Error handling will be added in the next step of the tutorial.
+    const hero = HEROES.find(h => h.id === id)!;
+    this.messageService.add(`HeroService: fetched hero id=${id}`);  //The backtick ( ` ) characters define a JavaScript template literal for embedding the id.
+    return of(hero);  //Like getHeroes(), getHero() has an asynchronous signature. It returns a mock hero as an Observable, using the RxJS of() function.
+  }                    //You can rewrite getHero() as a real Http request without having to change the HeroDetailComponent that calls it.
 }
